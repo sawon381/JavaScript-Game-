@@ -106,7 +106,13 @@
         margin-left: 0px;
     }
   }
-
+  @media only screen and (max-width: 300px) {
+    #game{
+        width: 390px;
+        height: 200px;
+        margin-left: 0px;
+    }
+  }
 
 
 
