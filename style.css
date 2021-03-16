@@ -49,6 +49,7 @@
     100%{left: -40px;}
 }
 
+
 .footer{
     margin-top: 310px;
     background-color: rgb(107, 17, 17);
@@ -58,8 +59,9 @@
     font-weight: bold;
     text-align: center;
     font-family: sans-serif;
-    width: 100%;
+    
 }
+
 
 
 /* Responsive */
@@ -95,35 +97,53 @@
     #game{
         margin-left: 130px;
     }
+    .footer{
+        width: 95%;
+    }
   }
   @media only screen and (max-width: 668px) {
     #game{
         margin-left: 85px;
+    }
+    .footer{
+        width: 95%;
     }
   }
   @media only screen and (max-width: 600px) {
     #game{
         margin-left: 40px;
     }
+    .footer{
+        width: 93%;
+    }
   }
   @media only screen and (max-width: 500px) {
     #game{
         margin-left: 0px;
+    }
+    .footer{
+        width: 93%;
     }
   }
   @media only screen and (max-width: 400px) {
     #game{
         margin-left: 0px;
     }
+    .footer{
+        width: 117%;
+    }
   }
+
   @media only screen and (max-width: 300px) {
     #game{
         width: 390px;
         height: 200px;
         margin-left: 0px;
     }
+    .footer{
+        width: 120%;
+    }
   }
-
 
 
 
