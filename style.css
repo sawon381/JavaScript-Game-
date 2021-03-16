@@ -37,7 +37,7 @@
     position: relative;
     top: 125px;
     left: 480px;
-    animation: block 1s infinite linear;
+    animation: block 1.5s infinite linear;
 }
 #block i{
     font-size: 25px;
